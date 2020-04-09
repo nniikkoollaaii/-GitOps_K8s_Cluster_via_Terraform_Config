@@ -9,7 +9,7 @@ spec:
     path: "helm/helm-operator"
     secretRef: 
       name: "git-auth"
-    releaseName: app1
+    releaseName: team1-flux
     version: 1.0.0
     targetNamespace: "team1"
     values:
