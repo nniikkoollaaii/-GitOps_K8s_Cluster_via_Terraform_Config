@@ -11,7 +11,7 @@ spec:
       name: "git-auth"
     releaseName: team1-helm-operator
     version: 1.0.0
-    targetNamespace: "team1"
+  targetNamespace: "team1"
   values:
     image:
       repository: "fluxcd/helm-operator"
