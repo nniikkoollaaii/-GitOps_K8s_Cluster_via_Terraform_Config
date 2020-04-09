@@ -24,6 +24,8 @@ spec:
       pollInterval: "1m"
     env:
       secretName: "flux-git-auth"
+    clusterRole:
+      create: false
     registry:
       disableScanning: true
     allowedNamespaces: ["team1"]
