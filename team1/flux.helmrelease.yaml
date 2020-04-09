@@ -14,7 +14,7 @@ spec:
     targetNamespace: "team1"
     values:
       image.repository: "fluxcd/flux"
-      git.url: "https://$(GIT_AUTHUSER):$(GIT_AUTHKEY)@github.com/nniikkoollaaii/GitOps_K8s_Cluster_via_Terraform_Config.git"
+      git.url: "https://$(GIT_AUTHUSER):$(GIT_AUTHKEY)@github.com/nniikkoollaaii/GitOps_K8s_Cluster_via_Terraform_Config_Team1.git"
       git.branch: "master"
       git.user: "nniikkoollaaii"
       git.email: "<email>"
