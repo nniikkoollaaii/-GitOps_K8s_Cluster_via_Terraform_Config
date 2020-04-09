@@ -8,7 +8,7 @@ spec:
     git: https://github.com/nniikkoollaaii/GitOps_K8s_Cluster_via_Terraform
     path: "terraform/helm-operator"
     secretRef: 
-      name: "flux-git-auth"
+      name: "git-auth"
     releaseName: app1
     version: 1.0.0
     targetNamespace: "team1"
