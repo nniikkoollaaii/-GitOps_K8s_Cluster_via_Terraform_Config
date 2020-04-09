@@ -25,5 +25,5 @@ spec:
     env:
       secretName: "flux-git-auth"
     registry:
-      disableScanning: "true"
+      disableScanning: true
     allowedNamespaces: ["team1"]

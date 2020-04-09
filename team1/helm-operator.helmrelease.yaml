@@ -16,7 +16,7 @@ spec:
     image:
       repository: "fluxcd/helm-operator"
       tag: "1.0.0"
-    createCRD: "false"
+    createCRD: false
     allowNamespace: "team1"
     git:
       pollInterval: "1m"  
