@@ -12,10 +12,10 @@ spec:
     releaseName: team1-helm-operator
     version: 1.0.0
     targetNamespace: "team1"
-    values:
-      image.repository: "fluxcd/helm-operator"
-      image.tag: "1.0.0"
-      createCRD: "false"
-      allowNamespace: "team1"
-      git.pollInterval: "1m"  
-      helm.versions: "v3"
+  values:
+    image.repository: "fluxcd/helm-operator"
+    image.tag: "1.0.0"
+    createCRD: "false"
+    allowNamespace: "team1"
+    git.pollInterval: "1m"  
+    helm.versions: "v3"
