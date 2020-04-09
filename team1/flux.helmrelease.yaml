@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     git: https://github.com/nniikkoollaaii/GitOps_K8s_Cluster_via_Terraform
-    path: "helm/helm-operator"
+    path: "helm/flux"
     secretRef: 
       name: "git-auth"
     releaseName: team1-flux
