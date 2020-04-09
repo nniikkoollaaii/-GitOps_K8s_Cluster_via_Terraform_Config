@@ -13,8 +13,8 @@ spec:
     version: 1.0.0
     targetNamespace: "team1"
     values:
-      - image.repository: "fluxcd/helm-operator"
-      - image.tag: "1.0.0"
-      - createCRD: "false"
-      - allowNamespace: "team1"
-      - git.pollInterval: "1m"
+      image.repository: "fluxcd/helm-operator"
+      image.tag: "1.0.0"
+      createCRD: "false"
+      allowNamespace: "team1"
+      git.pollInterval: "1m"
