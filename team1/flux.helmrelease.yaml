@@ -19,6 +19,7 @@ spec:
       - git.user: "nniikkoollaaii"
       - git.email: "<email>"
       - git.path: "manifests"
+      - git.pollInterval: "1m"
       - env.secretName: "flux-git-auth"
       - registry.disableScanning: "true"
       - allowedNamespaces: ["team1"]
