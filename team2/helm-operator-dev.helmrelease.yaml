@@ -1,0 +1,28 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: team2-helm-operator-dev
+  namespace: gitops
+spec:
+  chart:
+    git: https://github.com/nniikkoollaaii/GitOps_K8s_Cluster_via_Terraform_Config_Team2_Helm
+    path: "helm/helm-operator"
+    ref: develop
+    secretRef: 
+      name: "git-auth"
+  releaseName: team2-dev-helm-operator
+  version: 1.0.0
+  wait: true
+  targetNamespace: "team2-dev"
+  values:
+    image:
+      repository: "fluxcd/helm-operator"
+      tag: "1.0.0"
+    createCRD: false
+    clusterRole:
+      create: false
+    allowNamespace: "team2-dev"
+    git:
+      pollInterval: "1m"  
+    helm:
+      versions: "v3"
