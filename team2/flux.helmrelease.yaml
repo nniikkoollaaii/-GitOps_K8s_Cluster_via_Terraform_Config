@@ -20,7 +20,6 @@ spec:
       branch: "master"
       user: "nniikkoollaaii"
       email: "<email>"
-      path: "manifests"
       pollInterval: "1m"
     env:
       secretName: "git-auth"
