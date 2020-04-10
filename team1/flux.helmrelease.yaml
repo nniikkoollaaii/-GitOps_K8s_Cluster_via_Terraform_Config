@@ -28,4 +28,3 @@ spec:
       create: false
     registry:
       disableScanning: true
-    allowedNamespaces: ["team1"]

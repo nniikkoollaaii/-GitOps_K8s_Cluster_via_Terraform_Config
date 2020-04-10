@@ -6,11 +6,13 @@ metadata:
 spec:
   chart:
     git: https://github.com/nniikkoollaaii/GitOps_K8s_Cluster_via_Terraform
+    #ref: master
     path: "helm/helm-operator"
     secretRef: 
       name: "git-auth"
-    releaseName: team1-helm-operator
-    version: 1.0.0
+  releaseName: team1-helm-operator
+  version: 1.0.0
+  wait: true
   targetNamespace: "team1"
   values:
     image:
