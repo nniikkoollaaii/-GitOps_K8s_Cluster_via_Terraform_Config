@@ -9,7 +9,7 @@ spec:
     path: "helm/helm-operator"
     secretRef: 
       name: "git-auth"
-  releaseName: team1-helm-operator
+  releaseName: team2-prod-helm-operator
   version: 1.0.0
   wait: true
   targetNamespace: "team2-prod"
