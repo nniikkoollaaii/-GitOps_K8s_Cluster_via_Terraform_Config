@@ -7,7 +7,6 @@ spec:
   chart:
     git: https://github.com/nniikkoollaaii/GitOps_K8s_Cluster_via_Terraform_Config_Team2_Helm
     path: "helm/helm-operator"
-    ref: master
     secretRef: 
       name: "git-auth"
   releaseName: team1-helm-operator
