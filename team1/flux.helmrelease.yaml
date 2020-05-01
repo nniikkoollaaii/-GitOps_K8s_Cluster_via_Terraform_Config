@@ -9,8 +9,8 @@ spec:
     path: "helm/flux"
     secretRef: 
       name: "git-auth"
-    releaseName: team1-flux
-    version: 1.0.0
+  releaseName: team1-flux
+  version: 1.0.0
   targetNamespace: "team1"
   values:
     image:
